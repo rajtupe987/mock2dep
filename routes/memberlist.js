@@ -72,25 +72,25 @@ function displaymembers(){
 
 
 
-let deletegust=(id)=>{
+// let deletegust=(id)=>{
 
-    fetch(`http://localhost:3000/${id}`,{
-        method:"DELETE",
+//     fetch(`http://localhost:3000/${id}`,{
+//         method:"DELETE",
 
-    }).then((res)=>{
-        return res.json()
-    }).then((data)=>{
-        console.log(data);
-        displaymembers()
+//     }).then((res)=>{
+//         return res.json()
+//     }).then((data)=>{
+//         console.log(data);
+//         displaymembers()
         
-    }).catch((err)=>{
-        console.log(err)
-    })
-}
+//     }).catch((err)=>{
+//         console.log(err)
+//     })
+// }
 
-document.querySelector(".deletedtn").addEventListener("click",()=>{
-    console.log("asdfsdf")
-})
+// document.querySelector(".deletedtn").addEventListener("click",()=>{
+//     console.log("asdfsdf")
+// })
 
 
 
